@@ -5,9 +5,82 @@
     <title>5280 Landmarks</title>
     <link rel="stylesheet" href="stylesheets/reset.css" title="text/css" />
     <link rel="stylesheet" href="stylesheets/main.css" title="text/css" />
+    <style>
+      .title {
+        color: white;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      #button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 30px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: -6%;
+        margin-left: 91%;
+        font-size: 16px;
+      }
+      #selectRow {
+        background-color:navy;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .rowChoice {
+        padding-left: 20%;
+        display: inline-block;
+      }
+
+      #imgSplash {
+        background-image: url("images/1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 450px;
+        color: white;
+      }
+
+      #imgText {
+        padding-left: 50px;
+      }
+
+      .summary {
+        color: white;
+      }
+
+      body {
+        background-color: rgb(31, 25, 25);
+      }
+    </style>
   </head>
   <body>
+    <div class="title">
+      <h1><b>5280 Landmarks</b></h1>
+      <button id="button">Login</button>
+    </div>
+    
+    <div id="selectRow">
+      <p class="rowChoice">Building</p>
+      <p class="rowChoice">Art</p>
+      <p class="rowChoice">Featured</p>
+    </div>
 
+    <div id="imgSplash">
+      <h2 class="title">Denver Art Museum</h2>
+    </div>
+
+    <div class="summary">
+      <p></p>
+    </div>
   </body>
 </html>
 
